@@ -1,3 +1,4 @@
+// Current time 
 function updateTime() {
   var currentTime = new Date().toLocaleString();
   var timeText = document.querySelector("#top-bar-date");
@@ -6,3 +7,5 @@ function updateTime() {
 }
 
 setInterval(updateTime, 1000);
+
+
